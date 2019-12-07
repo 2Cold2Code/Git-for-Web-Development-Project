@@ -1,5 +1,7 @@
 codepen link address: https://codepen.io/2cold2code/pen/XWJbQqV
 
+/*codepen has been completed*/
+
 1. What is Semantic HTML? 
 
     HTML tags that have meaning in their labeling.
