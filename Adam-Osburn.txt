@@ -145,9 +145,9 @@ codepen link address: https://codepen.io/2cold2code/pen/XWJbQqV
 
     35. How often should I commit to github?
     
-        At least twice for Lambda, but any time there are major changes to your code that may have a grand impact on its functionality, or periodically to store
-        progress, prevent repitition in the event of reverting to an earlier version, and prevent data loss in the event of hardware/software malfunction that
-        may corrupt the file or lose any progress.
+        At least twice for Lambda, but any time there are major changes to your code that may have a grand impact on its functionality, or periodically to 
+        store progress, prevent repitition in the event of reverting to an earlier version, and prevent data loss in the event of hardware/software 
+        malfunction that may corrupt the file or lose any progress.
 
     36. What is the command we would use to push our repo up to github? 
     
@@ -170,20 +170,24 @@ Stretch Questions
 
     1. What is the difference between an inline element and a block element?
             
-        
-
+        inline elements take up only the space that they require, occupy a single line, and do not return to a new line, where block elements take up the 
+        entire width of their container, return to a new line (both before and after the element), and may occupy multiple lines.  In addition, block 
+        elements can have a height attribute as well as others that inline does not.
+    
     2. What happens when an element is positioned absolutely? 
     
-        
+        It gets positioned relative to the closest parent container.    
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
 
-        
+        Use the padding attribute.
 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
 
-
+        div, h1, p
 
     5. In your own words, explain the box model. What is the fix for the box model? 
 
-
+        The box model is where all elements are contained in boxes with the following format: margin (which separates an element from other elements), 
+        border (a box within the margin box that can be colored, styled to be lined, dotted, or solid, and set to have different sizes), padding (which 
+        separates the contents of the box object from the border), and the content itself.
